@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.0214445%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.02" offset="80%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.04" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.12" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.06" offset="20%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-3" cx="25" cy="25" r="25"></circle>
+        <filter x="-24.0%" y="-24.0%" width="148.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="BusyBus-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Button">
+                <g id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <circle stroke="url(#linearGradient-1)" stroke-width="0.5" stroke-linejoin="square" fill="#334EB5" fill-rule="evenodd" cx="25" cy="25" r="24.75"></circle>
+                    <circle stroke="url(#linearGradient-2)" stroke-width="0.5" stroke-linejoin="square" cx="25" cy="25" r="24.75"></circle>
+                </g>
+                <g id="ic_directions_black_24px" transform="translate(15.000000, 15.000000)">
+                    <g id="Group">
+                        <path d="M19.2223958,9.99635417 L11.2536458,2.02760417 C10.9083333,1.68229167 10.3505208,1.68229167 10.0052083,2.02760417 L2.03645833,9.99635417 C1.69114583,10.3416667 1.69114583,10.8994792 2.03645833,11.2447917 L10.0052083,19.2135417 C10.3505208,19.5588542 10.9083333,19.5588542 11.2536458,19.2135417 L19.2223958,11.2447917 C19.5677083,10.9083333 19.5677083,10.3505208 19.2223958,9.99635417 Z M12.3958333,12.8385417 L12.3958333,10.625 L8.85416667,10.625 L8.85416667,13.28125 L7.08333333,13.28125 L7.08333333,9.73958333 C7.08333333,9.25260417 7.48177083,8.85416667 7.96875,8.85416667 L12.3958333,8.85416667 L12.3958333,6.640625 L15.4947917,9.73958333 L12.3958333,12.8385417 Z" id="Shape" fill="#FFFFFF"></path>
+                        <polygon id="Shape" points="0 0 21.25 0 21.25 21.25 0 21.25"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
